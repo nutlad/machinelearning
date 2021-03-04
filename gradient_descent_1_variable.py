@@ -13,9 +13,8 @@ x = []
 y = []
 
 for i in range(400):
-    yi = i
     x.append(i)
-    y.append(5 + yi * 1.25 * (100/random.randint(90,110))) #come back to this it is an affront to God
+    y.append(5 + i * 1.25 * (100/random.randint(90,110))) #come back to this it is an affront to God
 
 def Gradient_Descent (x, y, lr, its):
     theta_1 = np.random.randint(low = 1, high = 2)
